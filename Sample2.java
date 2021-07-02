@@ -1,5 +1,5 @@
 class Sample2 {
-  public static void main(String[] Args) {
+  public static void main(String[] args) {
     // mainメソッド開始
     System.out.print("ようこそJavaへ!");
     System.out.print("Javaをはじめましょう!");
