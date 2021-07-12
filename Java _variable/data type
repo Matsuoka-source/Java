@@ -1,0 +1,12 @@
+boolean     trueまたはfalse
+
+
+char        2バイト文字
+byte        1バイト整数
+short       2バイト整数
+int         4バイト整数
+long        8バイト整数
+
+
+float       4バイト単精度不動小数点数
+double      8バイト倍精度不動小数点数
