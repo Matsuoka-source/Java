@@ -13,3 +13,4 @@ class Sample2 {
     System.out.println("変数num1に１を足すと" + num1 + "です。");
   }
 }
+// 変数の値を使う
