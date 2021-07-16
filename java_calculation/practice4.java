@@ -17,6 +17,15 @@ class practice4 {
     int num3 = Integer.parseInt(str3);
     int num4 = Integer.parseInt(str4);
     int num5 = Integer.parseInt(str5);
+    // 模範解答
+    // int sum = 0;
+    // sum += Integer.parseInt(str1);
+    // sum += Integer.parseInt(str2);
+    // sum += Integer.parseInt(str3);
+    // sum += Integer.parseInt(str4);
+    // sum += Integer.parseInt(str5);
+
+    // + (sum/(double)5) +
 
     int sum1 = num1 + num2 + num3 + num4 + num5;
     double sum2 = (double) sum1 / 5;
