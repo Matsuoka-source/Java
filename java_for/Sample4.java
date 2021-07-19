@@ -13,7 +13,8 @@ class Sample4 {
     int sum = 0;
     for (int i = 1; i <= num; i++) {
       sum += i;
+      System.out.println("1から" + i + "までの合計は" + sum + "です。");
     }
-    System.out.println("1から" + num + "までの合計は" + sum + "です。");
+
   }
 }
