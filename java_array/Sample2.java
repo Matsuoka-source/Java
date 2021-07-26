@@ -1,7 +1,5 @@
 import java.io.*;
 
-import jdk.internal.jline.internal.InputStreamReader;
-
 class Sample2 {
   public static void main(String[] args) throws IOException {
     System.out.println("テストの受験者数を入力してください。");
