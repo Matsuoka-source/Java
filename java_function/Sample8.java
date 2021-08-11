@@ -38,6 +38,6 @@ class Sample8 {
     Car car2 = new Car();
     car2.setCar(4567, 30.5);
 
-    car.showSum();
+    Car.showSum();
   }
 }
