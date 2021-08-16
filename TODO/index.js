@@ -29,6 +29,12 @@ function add(todo){
     const li = document.createElement("li");
     li.innerText = todoText;
     li.classList.add("list-group-item");
+
+    li.addEventListener("contextmenu", function(event){
+      event.preventDefault();
+      li.remove();
+      saveData();
+    });
     ul.appendChild(li);
     input.value = "";
     saveData();
@@ -50,3 +56,5 @@ function saveData(){
 // 暗黙的型変換でif(todoText.length > 0)を省略できる
 
 // ローカルストレージにデータを残すことでリロードしても消えなくなる
+
+// contextmenuで右クリックをすると、という記述になる。
