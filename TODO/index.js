@@ -35,6 +35,10 @@ function add(todo){
       li.remove();
       saveData();
     });
+    li.addEventListener("click", function(){
+      li.classList.toggle("text-decoration-line-through");
+    });
+
     ul.appendChild(li);
     input.value = "";
     saveData();
@@ -58,3 +62,7 @@ function saveData(){
 // ローカルストレージにデータを残すことでリロードしても消えなくなる
 
 // contextmenuで右クリックをすると、という記述になる。
+
+// text-decoration-line-through 打消し線をする
+
+// toggle ラインをつけるあったらそのクラスを削除する（切り替え）
