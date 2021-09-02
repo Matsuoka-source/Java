@@ -1,4 +1,3 @@
-// 車のクラス
 class Car {
   private int num;
   private double gas;
@@ -12,7 +11,7 @@ class Car {
   public void setCar(int n, double g) {
     num = n;
     gas = g;
-    System.out.println("ナンバーを" + num + "にガソリン量を" + gas + "に変更しました。");
+    System.out.println("ナンバーを" + num + "にガソリン量を" + gas + "にしました。");
   }
 
   public void show() {
@@ -21,7 +20,7 @@ class Car {
   }
 }
 
-class Sample6 {
+class Sample7 {
   public static void main(String[] args) {
     Car car1;
     System.out.println("car1を宣言しました。");
@@ -34,9 +33,17 @@ class Sample6 {
     car2 = car1;
     System.out.println("car2にcar1を代入しました。");
 
-    System.out.print("car1をさす");
+    System.out.print("car1がさす");
     car1.show();
-    System.out.print("car2をさす");
+    System.out.print("car2がさす");
+    car2.show();
+
+    System.out.println("car1がさす車に変更を加えます。");
+    car1.setCar(2345, 30.5);
+
+    System.out.print("car1がさす");
+    car1.show();
+    System.out.print("car2がさす");
     car2.show();
   }
 }
